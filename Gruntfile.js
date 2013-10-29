@@ -1,16 +1,16 @@
 module.exports = function(grunt) {
-  	grunt.initConfig({
-		concat: {
-		    veryless: {
-		    	src: [
+    grunt.initConfig({
+        concat: {
+            veryless: {
+                src: [
                     'src/base/*.less',
                     'src/shortcut/*.less',
                     'src/compatible/*.less',
                     'src/util/*.less',
                     'src/layout/*.less'
                 ],
-		    	dest: 'dist/veryless.less'
-		    },
+                dest: 'dist/veryless.less'
+            },
 
             //minxin
             base: {
@@ -55,11 +55,11 @@ module.exports = function(grunt) {
                 src: ['src/plugin/animation/*.less'],
                 dest: 'dist/plugin/animation.less'
             }
-		}
-	});
+        }
+    });
 
     
     grunt.loadNpmTasks('grunt-contrib-concat');
 
-	grunt.registerTask('default', 'concat');
+    grunt.registerTask('default', 'concat');
 };
