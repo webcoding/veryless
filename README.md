@@ -4,6 +4,9 @@ http://veryless.org
 VeryLess是基于LESS的Mixin扩展库,由LESS中国社区( http://lesscss.net/ )发起。<br>
 提供一系列方法库，帮助我们快速敏捷的编写样式。
 
+要系统的整理Pandora前端框架了，已经整理了一段时间，之后发觉还是要回归一下，使用LESS处理下底层的代码，方便修改编辑及维护，而接触LESS时偶然间发现veryless，就觉得在构建时很值得参考，也许可以直接拿过来用，这样开发起来能避免一些弯路，省事儿。
+
+
 ## 使用方法
 	
 安装veryless
